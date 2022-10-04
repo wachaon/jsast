@@ -1,0 +1,28 @@
+{
+  "name": "jsast",
+  "version": "0.0.2",
+  "description": "js ast",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wachaon/jsast.git"
+  },
+  "keywords": [
+    "js",
+    "ast"
+  ],
+  "author": "wachaon <wachaon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wachaon/jsast/issues"
+  },
+  "homepage": "https://github.com/wachaon/jsast#readme",
+  "dependencies": {
+    "@babel/generator": "^7.19.3",
+    "@babel/parser": "^7.19.3",
+    "estree-util-visit": "^1.2.0"
+  }
+}
